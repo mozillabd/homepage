@@ -1,0 +1,192 @@
+.form-field-error {
+  border-color: #af3232;
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  -moz-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+}
+#wrapper {
+  width: 100%;
+}
+#masthead,
+#main-content,
+.billboard {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#main-content {
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  margin: 100px auto 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  zoom: 1;
+  -webkit-box-shadow: 0 0 0 1px #ffffff inset;
+  -moz-box-shadow: 0 0 0 1px #ffffff inset;
+  box-shadow: 0 0 0 1px #ffffff inset;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+#main-content:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: ".";
+}
+#main-content .title-banner {
+  font-family: 'Open Sans Light', sans-serif;
+  font-weight: normal;
+  width: 420px;
+  padding: 20px;
+  font-size: 48px;
+  letter-spacing: -2px;
+  color: #fff;
+  text-shadow: none;
+  background-color: #b30406;
+  background-color: rgba(179, 4, 6, 0.95);
+  margin: -60px 10px 40px;
+  position: relative;
+  float: left;
+}
+#main-content .title-banner + p {
+  clear: left;
+}
+#main-content .title-banner:after {
+  content: "";
+  display: block;
+  width: 100%;
+  padding: 0;
+  height: 40px;
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  background: url(/media/img/mission/title-banner-shadow.png) no-repeat;
+}
+#main-content .intro {
+  font-family: 'Open Sans Light', sans-serif;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+  clear: left;
+  margin-top: -0.25em;
+}
+#main-content ul.links {
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+#main-content ul.links li {
+  list-style-type: none;
+  margin-left: 0;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  background: url(/media/img/mission/thin-stripe.png) center bottom repeat-x;
+  min-height: 80px;
+}
+#main-content ul.links li:last-child {
+  padding: 0;
+  background-image: none;
+}
+#main-content ul.links h4 {
+  margin-bottom: 3.3333333333333335px;
+}
+#main-content ul.links h4 a:after {
+  content: " »";
+  font-family: 'Open Sans Light', sans-serif;
+  font-weight: 300;
+}
+#main-content ul.links p {
+  font-size: .857em;
+  margin-bottom: 10px;
+}
+/* Tablet Layout: 760px */
+@media only screen and (min-width: 760px) and (max-width: 1000px) {
+  #masthead,
+  #main-content,
+  .billboard {
+    width: 720px;
+  }
+  #main-content .intro {
+    float: left;
+    width: 220px;
+    margin: 0 10px;
+    font-size: 22px;
+  }
+  #main-content ul.links {
+    float: left;
+    width: 220px;
+    margin: 0 10px;
+  }
+  #main-content ul.links h4 {
+    font-size: 20px;
+  }
+}
+/* Mobile layout: 320px */
+@media only screen and (max-width: 760px) {
+  #masthead,
+  #main-content,
+  .billboard {
+    width: 280px;
+  }
+  .billboard {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #main-content {
+    margin-bottom: 20px;
+  }
+  #main-content .title-banner {
+    width: 240px;
+    font-size: 28px;
+    letter-spacing: -0.5px;
+    margin: -25px 0 20px;
+  }
+  #main-content .title-banner:after {
+    display: none;
+  }
+  #main-content .intro {
+    width: auto;
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  #main-content ul.links {
+    width: auto;
+    margin-bottom: 0;
+  }
+  #main-content ul.links li {
+    min-height: 0;
+  }
+}
+/* Wide mobile layout: 480px; */
+@media only screen and (min-width: 480px) and (max-width: 760px) {
+  #masthead,
+  #main-content,
+  .billboard {
+    width: 420px;
+  }
+  #main-content .title-banner {
+    width: 380px;
+    margin: -25px 0 40px;
+  }
+  #main-content .title-banner:after {
+    display: block;
+  }
+  #main-content .intro {
+    float: left;
+    width: 160px;
+    margin: 0 10px;
+  }
+  #main-content ul.links {
+    float: left;
+    width: 220px;
+    margin: 0 10px;
+    float: right;
+    clear: right;
+  }
+}

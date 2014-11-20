@@ -1,0 +1,66 @@
+.form-field-error {
+  border-color: #af3232;
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  -moz-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+}
+hgroup {
+  text-align: center;
+  padding-bottom: 40px;
+}
+hgroup img {
+  width: 100%;
+  height: auto;
+  padding-top: 40px;
+}
+#itu .main-column {
+  float: left;
+  width: 380px;
+  margin: 0 10px;
+}
+#itu .sidebar {
+  float: left;
+  width: 540px;
+  margin: 0 10px;
+}
+#itu .sidebar img {
+  margin-bottom: 20px;
+}
+#itu .sidebar ol {
+  font-size: 24px;
+}
+#itu .sidebar ol p {
+  font-size: 14px;
+}
+#itu .sidebar h3 {
+  letter-spacing: -0.25px;
+  line-height: 100%;
+}
+#itu .your-say {
+  border-bottom: 1px solid #d6d6d6;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 760px) and (max-width: 1000px) {
+  #itu .main-column {
+    float: left;
+    width: 280px;
+    margin: 0 10px;
+  }
+  #itu .sidebar {
+    float: left;
+    width: 400px;
+    margin: 0 10px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  #itu .main-column {
+    width: auto;
+    margin: 0;
+  }
+  #itu .sidebar {
+    width: auto;
+    margin: 20px 0 0 0;
+    border-top: 1px solid #d6d6d6;
+    padding-top: 20px;
+  }
+}

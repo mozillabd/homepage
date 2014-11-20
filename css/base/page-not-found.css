@@ -1,0 +1,63 @@
+.form-field-error {
+  border-color: #af3232;
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  -moz-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+}
+.error500#main-content {
+  float: none;
+  width: auto;
+  margin: 0 10px;
+}
+#wrapper {
+  zoom: 1;
+}
+#wrapper:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: ".";
+}
+#error-content {
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+  zoom: 1;
+}
+#error-content:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: ".";
+}
+.download-button {
+  float: none;
+  width: auto;
+  margin: 0 10px;
+  float: right;
+}
+/* {{{ Tablet  Layout: 768px */
+@media only screen and (min-width: 760px) and (max-width: 1000px) {
+  #error-content {
+    float: left;
+    width: 340px;
+    margin: 0 10px;
+  }
+}
+/* }}} */
+/* {{{ Wide Mobile Layout: 480px */
+@media only screen and (max-width: 760px) {
+  #error-content {
+    float: none;
+    width: auto;
+    margin: 0 10px;
+  }
+  #download {
+    float: none;
+    width: auto;
+    margin: 0 10px;
+  }
+}
+/* }}} */

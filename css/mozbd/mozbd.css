@@ -1,0 +1,57 @@
+.form-field-error {
+  border-color: #af3232;
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  -moz-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+}
+#colophon .footer-logo .footer-logo-india {
+  color: #bbb;
+  font-size: 26px;
+  text-decoration: none;
+}
+#colophon .footer-logo a {
+  text-decoration: none;
+}
+#main-feature.huge h1 {
+  text-transform: uppercase;
+}
+#main-feature.huge h2 {
+  font-variant: small-caps;
+  text-transform: capitalize;
+}
+#main-feature.huge p {
+  font-size: 0.8em;
+}
+/* Mobile Layout: 320px */
+@media only screen and (max-width: 760px) {
+  #main-feature h1 {
+    width: 100%;
+    font-size: 36px;
+    text-align: center;
+  }
+  #main-feature h1 img {
+    display: inline;
+    width: 50%;
+  }
+  #main-feature h2 {
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: normal;
+    margin-top: 7px;
+  }
+  #main-content #about {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+/* }}} Mobile Layout */
+/* {{{ Tablet  Layout: 768px */
+@media only screen and (min-width: 760px) and (max-width: 1000px) {
+  #main-feature h1 {
+    font-size: 80px;
+  }
+  #main-feature h2 {
+    font-size: 28px;
+    letter-spacing: normal;
+  }
+}

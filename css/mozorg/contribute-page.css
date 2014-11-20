@@ -1,0 +1,166 @@
+.form-field-error {
+  border-color: #af3232;
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  -moz-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+}
+#help-form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+#help-form fieldset,
+#help-form .form-row {
+  width: 780px;
+  float: left;
+}
+#help-form .form-row-students {
+  width: auto;
+  padding-bottom: 24px;
+  clear: both;
+}
+#help-form .form-column-1 {
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+}
+#help-form .form-column-1 h3 {
+  font-size: 24px;
+  padding-top: 4px;
+  letter-spacing: -1px;
+}
+#help-form .form-column-2,
+#help-form .form-column-3 {
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+}
+#help-form .form-submit {
+  float: left;
+  width: 140px;
+  margin: 0 10px;
+  float: right;
+}
+#help-form .field-interest {
+  min-height: 36px;
+}
+#help-form .field-interest select {
+  margin-top: 4px;
+  width: 90%;
+}
+#help-form .field {
+  padding: 5px 0;
+}
+#help-form textarea,
+#help-form input[type=email] {
+  width: 90%;
+}
+#help-form input[type=submit] {
+  width: 140px;
+  max-width: 100%;
+}
+#help-form .field-newsletter label,
+#help-form .field-privacy label {
+  position: relative;
+  padding-left: 24px;
+  display: block;
+  font-size: 12px;
+  line-height: 18px;
+}
+#help-form .field-newsletter label input,
+#help-form .field-privacy label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#help-form .errorlist {
+  padding-bottom: 10px;
+}
+#help-form .hide {
+  display: none;
+}
+#help-form.has-errors {
+  border-top: 10px solid #AF3232;
+}
+.js #form-details {
+  display: none;
+}
+/* Tablet Layout: 760px */
+@media only screen and (min-width: 760px) and (max-width: 1000px) {
+  #help-form fieldset,
+  #help-form .form-row {
+    width: 560px;
+    float: left;
+  }
+  #help-form .form-column-1,
+  #help-form .form-column-2,
+  #help-form .form-column-3 {
+    float: left;
+    width: 160px;
+    margin: 0 10px;
+  }
+  #help-form .form-submit {
+    float: left;
+    width: 100px;
+    margin: 0 10px;
+  }
+}
+/* Mobile Layout: 320px */
+@media only screen and (max-width: 760px) {
+  #help-form {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #help-form fieldset,
+  #help-form .form-row {
+    width: auto;
+    float: none;
+  }
+  #help-form .form-column-1,
+  #help-form .form-column-2,
+  #help-form .form-column-3,
+  #help-form .form-submit {
+    width: auto;
+    float: none;
+    margin: 0 0 .5em;
+  }
+}
+#contribute-page #main-feature {
+  padding: 20px 30px;
+}
+#contribute-page #main-content p {
+  float: left;
+  width: 620px;
+  margin: 0 10px;
+  clear: left;
+  margin: 0 10px 20px;
+}
+/* Tablet Layout: 760px */
+@media only screen and (min-width: 760px) and (max-width: 1000px) {
+  #contribute-page #main-content p {
+    float: left;
+    width: 580px;
+    margin: 0 10px;
+    margin: 0 10px 20px;
+  }
+}
+/* Mobile layout: 320px */
+@media only screen and (max-width: 760px) {
+  #contribute-page #main-feature {
+    padding: 20px 20px;
+  }
+  #contribute-page #main-content p {
+    width: auto;
+    margin: 0 10px 20px;
+  }
+}
+/* Wide Mobile Layout: 480px */
+@media only screen and (min-width: 480px) and (max-width: 760px) {
+  #contribute-page #main-feature {
+    padding: 20px 0;
+  }
+  #contribute-page #main-content p {
+    width: auto;
+    margin: 0 0 20px;
+  }
+}
