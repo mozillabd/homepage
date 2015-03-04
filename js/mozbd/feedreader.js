@@ -1,6 +1,6 @@
 (function ($) {
     $.ajax({
-        url: "feeds/feeds.xml",
+        url: "http://blog.mozillabd.org/feed/",
         dataType: 'xml',
         success: function (data, status, jqXHR) {
             var items = [];
