@@ -49,7 +49,7 @@
                             <li><a href="http://www.mozilla.org/mission/">Mission</a></li>
                             <li><a href="http://mozillabd.org/blog/category/events/">Events</a></li>
 			    <li><a href="http://mozillabd.org/blog/category/events/">Event Blogs</a></li>
-			    <li><a href="http://mozillabd.org/mls/">MLS BD</a></li>
+			    <li><a href="http://mozillabd.org/mls.php">MLS BD</a></li>
                             <li class="last"><a href="http://mozillabd.org/blog/">Blog</a></li>
                         </ul>
                     </nav>
