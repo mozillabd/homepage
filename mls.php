@@ -48,7 +48,7 @@
                             <li class="first"><a href="http://mozillabd.org/">Home</a></li>
                             <li><a href="http://www.mozilla.org/about/">About</a></li>
                             <li><a href="http://www.mozilla.org/mission/">Mission</a></li>
-                            <li><a href="http://mozillabd.org/blog/category/events/">Events</a></li>
+                            <li><a href="http://blog.mozillabd.org/events-calender/">Events</a></li>
 			    <li><a href="http://mozillabd.org/blog/category/events/">Event Blogs</a></li>
                             <li class="last"><a href="http://mozillabd.org/blog/">Blog</a></li>
                         </ul>
