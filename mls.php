@@ -45,11 +45,11 @@
                     <nav id="nav-main" role="navigation">
                         <span class="toggle" role="button" aria-controls="nav-main-menu" tabindex="0">Menu</span>
                         <ul id="nav-main-menu">
-                            <li class="first"><a href="http://www.mozilla.org/about/">About</a></li>
+                            <li class="first"><a href="http://mozillabd.org/">Home</a></li>
+                            <li><a href="http://www.mozilla.org/about/">About</a></li>
                             <li><a href="http://www.mozilla.org/mission/">Mission</a></li>
                             <li><a href="http://mozillabd.org/blog/category/events/">Events</a></li>
 			    <li><a href="http://mozillabd.org/blog/category/events/">Event Blogs</a></li>
-			    <li><a href="http://mozillabd.org/mls.php">MLS BD</a></li>
                             <li class="last"><a href="http://mozillabd.org/blog/">Blog</a></li>
                         </ul>
                     </nav>
