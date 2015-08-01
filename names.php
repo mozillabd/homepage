@@ -23,7 +23,7 @@
 		preg_match('/(?P<column>[A-Z]+)(?P<row>[0-9]+)/', $location, $matches);
 		$array[$matches['row']][$matches['column']] = (string) $entry->content;
 	}
-	for($i = 2, $j = 0; $i < count($array); $i++){
+	for($i = 2, $j = 0; $i < count($array) + 1; $i++){
 			//avoiding null inputs
 			if(trim($array[$i]['U']) != null){
 				//creating the nick list
