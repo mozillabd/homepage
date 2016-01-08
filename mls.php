@@ -141,13 +141,11 @@
                 <div class="row">
 
                     <div class="footer-logo">
-                        <!-- <a href="/"><img src="img/sandstone/footer-mozilla.png" alt="mozilla"> <span class="footer-logo-india">India</span></a> -->
                         <p>Have feedback? <a href="https://github.com/mozillabd/homepage/issues">File a bug</a>.
                     </div>
 
                     <div class="footer-license">
-                        <p>
-                        </p>
+                        <p></p>
                     </div>
                     <ul class="footer-nav">
                         <li><a href="http://www.mozilla.org/about/">About</a></li>
